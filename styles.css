@@ -26,23 +26,23 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
-nav.sitenavigation {
+.sitenavigation {
     text-align: center;
     background-color: #000000;  
 }
-nav.sitenavigation p {
+.sitenavigation p {
     display: inline-block;
     margin: 0.5em 0.6em;
     font-size: 2em;
 }
-nav.sitenavigation a:link {
+.sitenavigation a:link {
     text-decoration: none;
     color: #EEEEEE;
 }
-nav.sitenavigation a:visited {
+.sitenavigation a:visited {
     color: #EEEEEE;
 }
-nav.sitenavigation a:hover, nav.sitenavigation a:focus {
+.sitenavigation a:hover, nav.sitenavigation a:focus {
     color: #D84040;
     font-size: 1.1em;
     text-shadow: 2px 2px 0 black;
@@ -50,6 +50,6 @@ nav.sitenavigation a:hover, nav.sitenavigation a:focus {
     background-color: #cf3535;
     border: 1px solid #922121;
 }
-nav.sitenavigation a:active {
+.sitenavigation a:active {
     padding: 0.3em;
 }
