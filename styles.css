@@ -26,23 +26,23 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
-.sitenavigation {
+nav.sitenavigation {
     text-align: center;
     background-color: #000000;  
 }
-.sitenavigation p {
+nav.sitenavigation p {
     display: inline-block;
     margin: 0.5em 0.6em;
     font-size: 2em;
 }
-.sitenavigation a:link {
+nav.sitenavigation a:link {
     text-decoration: none;
     color: #EEEEEE;
 }
-.sitenavigation a:visited {
+nav.sitenavigation a:visited {
     color: #EEEEEE;
 }
-.sitenavigation a:hover, nav.sitenavigation a:focus {
+nav.sitenavigation a:hover, nav.sitenavigation a:focus {
     color: #D84040;
     font-size: 1.1em;
     text-shadow: 2px 2px 0 black;
@@ -50,6 +50,6 @@ body {
     background-color: #cf3535;
     border: 1px solid #922121;
 }
-.sitenavigation a:active {
+nav.sitenavigation a:active {
     padding: 0.3em;
 }
